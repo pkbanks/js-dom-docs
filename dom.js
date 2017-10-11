@@ -13,13 +13,13 @@
 // })
 
 
-// window.addEventListener('load', function(){
-// 	var textField = document.getElementById('our-text-input');
-// 	textField.addEventListener('change', function(){
-// 		console.log("something changed");
-// 		console.dir(arguments);
-// 	})
-// })
+window.addEventListener('load', function(){
+	var textField = document.getElementById('our-text-input');
+	textField.addEventListener('change', function(){
+		console.log("something changed");
+		console.dir(arguments);
+	})
+})
 
 
 // function onChangeHandler(arg){
